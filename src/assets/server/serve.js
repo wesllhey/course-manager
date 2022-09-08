@@ -5,8 +5,11 @@ const app = express();
 
 var currentUser;
 
+
+//npm install -save express body-parser connect-multiparty cors
+// run with npm run start
 var corsOptions = {
-  orgim: '/',
+  origin: '*',
   optionsSuccessStatus: 200
 }
 
